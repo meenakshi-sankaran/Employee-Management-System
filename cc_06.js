@@ -44,3 +44,13 @@ class Company {
         });
     }
 }
+
+// Step 6: Instantiate Company, add members, and list them
+const company = new Company();
+
+company.addEmployee(emp1);
+company.addEmployee(emp2);
+company.addEmployee(mgr1);
+
+// Logs everything to the console
+company.listEmployees();
